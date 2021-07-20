@@ -499,44 +499,37 @@ th, td {
   border:thin 2px;
   border-radius: 20px;
   margin:10px;
-
 }
 
 .dev_tools {
   background-color: white;
-  font-size: x-large;
   border:thin 2px;
   border-radius: 20px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
-  width: 480px;
-
+  width: 100%;
 }
 
 .dev_tools_center {
   background-color: white;
-  font-size: x-large;
   border:thin 2px;
   border-radius: 20px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
-  width: 540px;
-
+  width: 100%;
 }
 
 .dev_tools_center iframe {
-  width: 440px;
-  height: 420px;
+  width: 100%;
+  height: 540px;
 }
 
 
 .tool {
-  padding-top:40px;
-  padding-left: 50px;
-  padding-bottom: 20px
+ padding: 30px;
 
 }
 
 .dev_tools iframe {
-  width: 360px;
+  width: 100%;
   height: 360px;
 }
 
