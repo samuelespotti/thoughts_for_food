@@ -291,7 +291,15 @@ $(document).ready ( function () {
       });
       }
     })
-  
+
+    $(document).on ("click", ".drop-nav", function(e) {
+      e.preventDefault()
+      // don't allow the event to fire horizontally or vertically up the tree
+      e.stopImmediatePropagation()
+      // switch the active class that you can use to display the child
+      $(this).toggleClass('active')
+    })
+
 
   }); /* close point of the ready document function */
   
@@ -343,7 +351,9 @@ $("img[id^='issue-']").click(function(){
         document.getElementById("image").style.height = "100vh";
         document.getElementById("open-articles").style.removeProperty("display") = "visible";
     };
-  })
+  });
+
+
 
 
 
