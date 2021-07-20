@@ -350,7 +350,13 @@ img {
 
 #topics input, #Named_entites input {
   width: 30px;
+}
 
+#general_info {
+  line-height: 30px;
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.6);
+  border-radius: 10px;
+  padding: 10px;
 
 }
 
