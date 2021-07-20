@@ -352,7 +352,7 @@ img {
   width: 30px;
 }
 
-#general_info {
+.general_info {
   line-height: 30px;
   box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.6);
   border-radius: 10px;
@@ -433,8 +433,8 @@ img {
 #image {
   z-index: 1;
   position: absolute;
-  height: 720px;
-  width: 560px;
+  height: 60%;
+  width: 22%;
   justify-self: center;
   align-self: center;
   background-repeat: no-repeat;
