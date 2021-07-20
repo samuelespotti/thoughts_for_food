@@ -1,0 +1,53 @@
+{
+    "issue-1": {
+                    "html1": "issue_1\\mediterranean_diet_article\\mediterranean.html",
+                    "metadata1": "issue_1\\mediterranean_diet_article\\metadata-viewer-mediterranean.html",
+                    
+                    "html2": "issue_1\\hypocaloric_diet_article\\HYPOCALORIC.html",
+                    "metadata2": "issue_1\\hypocaloric_diet_article\\metadata-viewer-hypocaloric.html",
+
+                    "html3": "issue_1\\vegan_diet_article\\vegan.html",
+                    "metadata3": "issue_1\\vegan_diet_article\\metadata-viewer-vegan.html",
+        
+                    "image": "3.png",
+                    "position": "<a id='number_of_issue' name='issue-1'>Issue n. 1</a>"
+                },
+
+    "issue-2": {
+                    "html1": "issue_2\\1600__food__article\\1600_food.html",
+                    "metadata1": "issue_2\\1600__food__article\\metatada_viewer_1600_food.html",
+                    "title-1": "<h1 id='title2' about='cancel'><span class='text_occurrence_tudor'>Tudor</span> dining: a guide to food and status in the 16th century</h1>",
+                    
+                    "html2": "issue_2\\roman_food_article\\roman_food.html",
+                    "metadata2": "issue_2\\roman_food_article\\metadata_viewer_roman_food.html",
+                    "title-2": "<h1 id='title3' about='cancel'><span class='uno'>F</span>   <span class='due'>  O</span>  <span class='tre'> O</span><span class='quattro'>  D</span>  <span class='cinque'>  <br> IN</span>  <span class='sei'>  T</span>  <span class='sette'></span> <span class='nove'>H</span> <span class='dieci'>E</span><br> <span class='undici'>R</span> <span class='dodici'>O</span> <span class='tredici'>M</span>  <span class='quindici'>A</span> <span class='sedici'></span>  <span class='diciassette'>N</span>  <span class='diciotto'>W</span>  <span class='diciannove'>O</span>  <span class='venti'>R</span>  <span class='ventuno'>L</span>  <span class='ventidue'>D</span></h1>",
+
+                    "html3": "issue_2\\medieval_food_article\\medieval_food.html",
+                    "metadata3": "issue_2\\medieval_food_article\\metadata_viewer_medieval_food.html",
+                    "title-3": "<h1 id='title1' about='cancel'><span class='uno'>F</span>   <span class='due'>  O</span>  <span class='tre'> O</span><span class='quattro'>  D</span>  <span class='cinque'>  <br> IN</span>  <span class='sei'>  A</span>  <span class='sette'></span><span class='nove'>N</span>   <span class='dieci'>E</span> <span class='undici'>N</span> <span class='dodici'>G</span> <span class='tredici'>L</span>  <span class='quindici'>I</span> <span class='sedici'></span>  <span class='diciassette'>S</span>  <span class='diciotto'>H</span> <br> <span class='diciannove'>MED</span>  <span class='venti'>IE</span>  <span class='ventuno'>VAL</span>  <span class='ventidue'>CAS</span><span class='ventitre'>TLE</span></h1>",
+
+                    "image": "2.png",
+                    "position": "<a id='number_of_issue' name='issue-2'>Issue n. 2</a>"
+                },
+
+    "issue-3": {
+                    "html1": "issue_3\\cell_meats\\cell-meat.html",
+                    "metadata1": "issue_3\\cell_meats\\metadata-viewer_art1.html",
+                    "title-1": "<h1 about='cancel' id='title1'><span class='uno'>W</span>   <span class='due'>  I</span>  <span class='tre'> L</span><span class='quattro'>  L</span>  <span class='cinque'>  <br> C E</span>  <span class='sei'>  L L</span>  <span class='sette'></span>-<span class='otto'>BASED</span> <br> <span class='nove'>M</span> <span class='dieci'>E</span> <span class='undici'>AT</span> <span class='dodici'>EV</span> <span class='tredici'>E</span> <span class='quattordici'>R</span>  <span class='quindici'>BE</span> <br> <span class='sedici'>A</span>  <span class='diciassette'>DIN</span>  <span class='diciotto'>NE</span>  <span class='diciannove'>R</span>  <span class='venti'>S</span>  <span class='ventuno'>TA</span>  <span class='ventidue'>PL</span>  <span class='ventitre'>E?</span></h1>",
+                    
+                    "html2": "issue_3\\cultivated_meat\\cultivated_meat.html",
+                    "metadata2": "issue_3\\cultivated_meat\\metadata-viwer_art2.html",
+                    "title-2": "<h1 about='cancel' id='title2'><span class='uno'>C</span><span class='due'>U</span><span class='tre'>L</span><span class='quattro'>T</span><span class='cinque'>IV</span><span class='sei'>AT</span><span class='sette'></span><span class='otto'>E</span><span class='nove'>D</span> <span class='dieci'>-M</span><span class='undici'>EAT:</span> <span class='dodici'>OU</span><span class='tredici'>T</span> <span class='quattordici'>OF</span> <span class='quindici'>T</span><span class='sedici'>HE</span> <span class='text_occurrence_lab' id='staple_lab1'>LAB</span> <br> <span class='diciotto'>INTO</span> <span class='diciannove'>THE</span> <span class='venti'>FRY</span><span class='ventuno'>ING</span> <span class='ventidue'>PA</span><span class='ventitre'>N</span></h1>",
+
+                    "html3": "issue_3\\cultured_meat\\cultured-meat.html",
+                    "metadata3": "issue_3\\cultured_meat\\metatdata-viewer_art3.html",
+                    "title-3": "<h1 about='cancel' id='title3'><span class='uno'>T</span>   <span class='due'>  A</span>  <span class='tre'> K</span><span class='quattro'>  I</span>  <span class='cinque'>  N G</span> <br> <span class='sei'>  C U</span>  <span class='sette'></span> <span class='otto'>LT</span> <span class='nove'>U</span> <span class='dieci'>RE</span> <span class='undici'>D</span> <br> <span class='dodici'>M</span> <span class='tredici'>EA</span> <span class='quattordici'>T</span>  <span class='quindici'>TO</span> <span class='sedici'>T</span>  <span class='diciassette'>HE</span> <br> <span class='diciotto'>NE</span>  <span class='diciannove'>X</span>  <span class='venti'>T</span>  <span class='ventuno'>LE</span>  <span class='ventidue'>VE</span>  <span class='ventitre'>L</span></h1>",
+
+                    "image": "1.png",
+                    "position": "<a id='number_of_issue' name='issue-3'>Issue n. 3</a>"
+    }
+
+                    
+ }
+                
+

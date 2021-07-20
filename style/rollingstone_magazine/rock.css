@@ -1,0 +1,125 @@
+/* added style */
+
+@import url(//db.onlinewebfonts.com/c/db33e70bc9dee9fa9ae9737ad83d77ba?family=Gotham);
+
+@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bangers&family=Big+Shoulders+Stencil+Display:wght@800&display=swap);
+
+
+*{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+  }
+  
+
+img {
+    width: 500px;
+    height: 400px;
+    object-fit: relative;
+    object-position: relative;
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    
+  }
+
+  
+#introduction {
+    padding-top: 50px;
+}
+
+h1, h2{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    
+}
+ 
+p, li{
+    font-family: 'Gotham', sans-serif;
+}
+h1 {
+    color: #7a1a1a;
+}
+#quot {
+    color: #ffffff
+}
+#author {
+    color:#912f2f
+}
+
+    
+
+#author {
+    font-family: 'Bangers', cursive;
+
+}
+#sottotesto {
+    font-family: 'Bangers', cursive;
+
+}
+#title1 {
+    color:teal
+}
+#title2 {
+    color: #c27d15;
+}
+#title3 {
+    color: #5b6497;
+}
+#section2, #section3, #section4, #section5{
+    background-color: #fff2a8cc;
+}
+
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    margin: 0 !important;
+    padding: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    background-color: transparent;
+  
+  }
+  
+  #image_background {
+    position: fixed;
+    z-index: 0;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-start: 4;
+    /*
+    background-image: url("https://www.parcotommasocampanella.it/wp-content/uploads/2016/02/sfondo-carta-antica.jpg");
+    background-repeat: no-repeat;
+    */
+    height: 100vh;
+    width: 100vw;
+    /*
+    background-size: 100vw 100vh;
+    */
+  }
+  
+  
+  /* Articles section */
+  
+  .article {
+    z-index: 1;
+    transition: 0.8s;
+  
+  }
+  
+  #double-column {
+    padding-top: 50px;
+    column-count: 2;
+    column-rule-style: solid;
+  }
+
+  table {
+    margin:15px;
+    -webkit-column-break-inside: avoid;
+    
+  }

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style\documentation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Documentation</title>
+</head>
+<body>
+    <div class="big-box">
+
+        <img id="image_background">
+        <div id="center">
+            <div id="upper_part">
+                <div class="section" id="section1">
+                    <h1>LLLL: Leisurely Luscious Literary Lens</h1>
+                    <p><span class="first_two"><span class="decorated">T</span>his website</span> is a framework for easily deploying interesting (and fun) literary and linguistic tools over text content with magazine-looking presentation according to modern and accurate page design. <span class="capital">T</span>he two main tasks the user can perform are: </p>
+                    <p>1) changing the graphic style of the website by switching from different typographical aspects inspired to real and historical graphic layouts. </p>
+                    <p>2) reading the articles belonging to the same issue in a parallel view and browsing the metadata to analyse and compare the information contained by each article of each issue.</p>
+                    <div class="subsection">
+                        <h2>Thoughts For Food</h2>
+                        <p><span class="first_two"><span class="decorated">T</span>he main</span> idea on which our magazine is based is to provide the reader with an insight into how food affects our lives and how it can be studied from different perspectives. <span class="capital">I</span>ndeed, we decided to display three issues: “Cultivated meet: between costs and health”, “Vegan, low-calorie and Mediterranean diet” and “Food and diets through history”. </p>
+                        <p>Each one of them contains three articles addressing different aspects of the issue. <span class="capital">B</span>ecause of that, through the MetadataViewer the user is able to compare all the articles of the same issue by selecting elements on which they want to focus and by accessing all the metadata of interest.</p>
+                        <p>In addition to that, the user can switch among six different themes inspired by six different historical graphic styles. <span class="capital">Y</span>ou can find further information later in the documentation.</p>
+                    </div>
+                </div>
+            
+                <div class="section" id="section2">
+                    <h1>Markup</h1>
+                    <p><span class="first_two"><span class="decorated">I</span>n order</span> to properly markup the articles displayed in the LLLL Framework, we decided to organize different markup layers.</p>
+                    <p>The first one is about the typographical organization of the text. <span class="capital">I</span>t consists of very basic HTML tags such as &ltp&gt for identifying paragraphs, &lth1&gt and &lth2&gt for identifying titles and subtitles, &lttable&gt for creating and populating tables and &ltfigure&gt (consisting of &ltimg&gt and &ltfigcaption&gt) for inserting images accompanied by captions. <span class="capital">M</span>oreover, we created some specific &ltdiv&gt elements to better organize the text hierarchically and we assigned some classes to them: the class “header” contains the title of article and information about the author and the publication date, the class “introduction” contains the introduction, and the classes “section”, “subsection” and “subsubsection” (each one accompanied by an ID) are used to hierarchically organize the text. <span class="capital">F</span>inally, we have the &ltdiv&gt class “riquadro_extra” which is for identifying some extra frames in the text.</p> 
+                    <p>The second layer is about adding semantic information to articles and finding metadata. <span class="capital">T</span>his markup is directly connected to the metadata viewer which exploits it. <span class="capital">I</span>n this markup layer, we have the “about” attribute “topic_nameofthetopic”. <span class="capital">F</span>urthermore, there are some &ltspan&gt tags that directly identify the named entities by using the class “text_occurrence_nameofthenamedentity” and the ID “nameofthearticle_nameofthenamedentity occurrencenumber”.</p>
+                    <p>The third layer is about adding markup useful for modifying the graphic style through CSS. <span class="capital">S</span>ome of these tags are the class “decorated” identifying the first letter of each paragraph which will be decorated in Gutemberg Bible Theme for example, and the class “capital” which identify any capital letter at the beginning of a sentence.</p>
+                    <p>Therefore, any markup was properly created to better organize the text from a typographical point of view and to add semantic information and to allow the CSS files to better format the HTML files, so that the final result is a set of articles which can be easily manipulated from different perspectives to provide the user with the maximum control over them.</p>
+                </div>
+                
+                <div class="section" id="section3">
+                    <h1>Themes</h1>
+                    <p><span class="first_two"><span class="decorated">A</span>s we</span> have already said, the user can switch among six different themes inspired by six different historical graphic styles. <span class="capital">T</span>hese six themes are:</p>
+                    <ol>
+                        <li>1400s - Gutemberg Bible Theme</li>
+                        <li>1800s - Kelsmcott Press Theme</li>
+                        <li>1920s - Dadaism Theme</li>
+                        <li>1980s - Airone Magazine Theme</li>
+                        <li>2000s - Pop-Rock bands in Rolling Stone Magazine Theme</li>
+                        <li>2030s - Futuristic Theme</li>
+                    </ol>
+                    
+                    <div class="subsection">
+                        <h2>Gutemberg Bible Theme (1400s)</h2>
+                        <p><span class="first_two"><span class="decorated">F</span>or this</span> theme, we chose as a model the famous Gutemberg Bible which was realized at Magonza in 1453. <span class="capital">I</span>t was the earliest major book printed using mass-produced movable metal type in Europe and marked the start of the "Gutenberg Revolution" and the age of printed books in the West. <span class="capital">I</span>ts importance is so remarkable that the Gutemberg Bible was inserted in the UNESCO list “Memory of the world” in 2001.</p>
+                        <p>“A heroic effort was required to produce this first typographic book, which is also one of the finest examples of the printer’s art”. <span class="capital">T</span>his is said about the Gutemberg Bible in the “Meggs’ History of Graphic Design” by Philip B. Meggs. <span class="capital">S</span>o, we elected this book as a model representing all the coming first printed books due to its importance in the history of typography. </p>
+                        <p>Unlike the revolution about the press methods, the layout and graphic design chosen by Gutemberg is pretty traditional: he was clearly inspired by the gothic manuscripts.  Indeed, the typeface created for the Bible was, as all other elements in the book, largely focused on the scribal tradition and optimization of space. <span class="capital">G</span>utemberg based letterforms on the liturgical scripts of the era – Textura Quadrata, a form of Blackletter. <span class="capital">I</span>t is characterized by tight spacing and condensed lettering, which helped reduce the materials used in the making of a printed book. <span class="capital">A</span>s a result, to emulate the Gutemberg Bible original typeface we used the New Gothic Textura font.</p>
+                        <p>In the Gutemberg Bible, the large pages had two columns with a generous margin between them. <span class="capital">W</span>e have a rigorous justification of the text and the initials are decorative, as in the traditional medieval manuscript. <span class="capital">T</span>o reproduce the typeface of the decorative initial we decided to use the MiddleAges Deco Font.</p>
+                        <p>As background image, we used a neutral ancient paper image to emulate the paper on which the Gutemberg Bible was printed. <span class="capital">M</span>oreover, the space between lines was reduced at maximum.</p>
+                        <p>For the title, we used the colour #d44040. <span class="capital">F</span>urthermore, a red stroke was added to every capital letter at the beginning of a sentence.</p>
+                        <p>Obviously, there were no tables in the original Gutemberg Bible. <span class="capital">T</span>herefore, we needed a way to represent them in our Gutemberg Bible-like theme.  Regarding colors, we decided to use the same red used for representing stroke in capitals and a black and a burlywood to fit the overall chromatic palette. <span class="capital">F</span>inally, we inserted a solid 1px border. </p><br>
+                        <p><b>Images</b></p>
+                        <div>
+                            <img src="Home_and_doc\gutemberg1.jpg" style = "position:relative;" width="400" height="280">
+                            <img src="Home_and_doc\gutemberg2.png" style = "position:relative;" width="400" height="280">
+                            <img src="Home_and_doc\gutemberg3.jpg" style = "position:relative;" width="400" height="280">
+                            <img src="Home_and_doc\gutemberg4.jpg" style = "position:relative;" width="400" height="280"><br>
+                        </div>
+                        <p><b>Sources</b></p><br>
+                        <a href="https://www.fontfabric.com/blog/gutenberg-first-typeface-original-bible-typography-used/">https://www.fontfabric.com/blog/gutenberg-first-typeface-original-bible-typography-used/</a><br>
+                        <a href="https://www.cdnfonts.com/new-gothic-textura.font">https://www.cdnfonts.com/new-gothic-textura.font</a><br>
+                        <a href="https://www.cufonfonts.com/font/middle-ages-deco-personal-use">https://www.cufonfonts.com/font/middle-ages-deco-personal-use</a><br>
+                        Meggs' History of Graphic Design – by  Philip B. Meggs and Alston W. Purvis 2016
+                    </div>
+            
+                    <div class="subsection">
+                        <h2>Kelmscott Press Theme (1800s)</h2>
+                        <p><span class="first_two"><span class="decorated">T</span>he Kelmscott</span> Press was founded by Morris in 1890 as one of his final attempts to preserve the old relationships between the artist and his art and his society. <span class="capital">T</span>he books issued by the Kelmscott Press were expensive — Morris designed his own typefaces, made his own paper, and printed by hand — but they were beautiful, because they were designed to be read slowly and to be appreciated. <span class="capital">I</span>ndeed, the Kelmscott Press was committed to recapturing the beauty of incunabula books.</p> 
+                        <p>The influence of the Kelmscott Press upon graphic design, particularly book design, was evidenced not just in the direct stylistic imitation of the Kelmscott borders, initials, and typestyles; Morris’s concept of the well-made book, his beautiful typeface designs based on earlier models, and his sense of design unity, with the smallest detail relating to the total concept, inspired a whole new generation of book designers.</p>
+                        <p>The specific book we took into consideration as a model for building our theme was the Works of Geoffrey Chaucer, an outstanding book considered by many experts one of the most ambitious print works ever.</p>
+                        <p>The book is full of illustrations and the text is surrounded by some woodcut ornamentals, which we tried to reproduce by adding a background image to our website, got by directly cutting an image of a sample page of Works of Geoffrey Chaucer. <span class="capital">T</span>he typeface was created by Morris himself and called Chaucer. <span class="capital">W</span>e found its digital version and adopted it for our website.</p>
+                        <p>Also, the text is divided into two columns and is justified. <span class="capital">T</span>he capital letters at beginning of the paragraph are decorated and are bigger than normal letters. <span class="capital">T</span>o try to emulate the letters draft by hand, we used a font representing decorated letters and we increased their size. <span class="capital">T</span>he first letter of each paragraph is decorated but its size is lower than the size of the capital letter at the beginning of the section.</p>
+                        <p>The bigger titles are uppercase, whereas the subtitles are red. <span class="capital">M</span>oreover, like Gothic manuscripts, the space between lines is reduced. <span class="capital">T</span>he impression of a single compact text is interrupted by a blank line after the end of each paragraph. <span class="capital">F</span>inally, the space between different paragraphs was deleted.</p> <br>
+                        <p><b>Images</b></p>
+                        <div>
+                            <img src="Home_and_doc\kelmscott1.jpg" style = "position:relative;" width="400" height="280">
+                            <img src="Home_and_doc\kelmscott2.jpg" style = "position:relative;" width="400" height="280">
+                            <img src="Home_and_doc\caucher1.jpg" style = "position:relative;" width="270" height="350">
+                            <img src="Home_and_doc\caucher2.jpg" style = "position:relative;" width="270" height="350">
+                            <img src="Home_and_doc\caucher3.jpg" style = "position:relative;" width="270" height="350">
+                        </div>
+                        <p><b>Sources</b></p> <br>
+                        <a href="https://williammorristypographyasartandcraft.wordpress.com/2017/02/21/golden-troy-chaucer/">https://williammorristypographyasartandcraft.wordpress.com/2017/02/21/golden-troy-chaucer/</a><br>
+                        <a href="https://williammorristypographyasartandcraft.wordpress.com/2017/02/23/the-most-ambitious-and-magnificent-book-of-the-press/">https://williammorristypographyasartandcraft.wordpress.com/2017/02/23/the-most-ambitious-and-magnificent-book-of-the-press/</a><br>
+                        <a href="https://allfont.net/download/chaucer-regular/">https://allfont.net/download/chaucer-regular/</a><br>
+                        Meggs' History of Graphic Design – by  Philip B. Meggs and Alston W. Purvis 2016
+                    </div>
+                    
+                    <div class="subsection">
+                        <h2>Dadaism Theme (1920s)</h2>
+                        <p><span class="first_two"><span class="decorated">A</span> style</span> which was influenced by cubism and futurism and literary movement. <span class="capital">D</span>ada's innovative approach to typography, photomontage, negative white space, layout, letter spacing and line spacing has played a significant role in the development of communication design. <span class="capital">O</span>f course, many aspects of their style, technique and aesthetics were borrowed from Futurists.</p>
+                        <p>It was a type of abstract style by placing pictures together to create a story or a picture to explain something or ridicule a person or an object.</p>
+                        <p>Dadaism stared in the 20th century and Zurich was the birthplace of the Dada, it was believed that Dadaism stared the world war.</p>
+                        <p>“Every page should explode, either because of its deep seriousness, or because of its vortex, vertigo, newness, timelessness, crushing humor, enthusiasm of its principles, or the way it is printed."</p>
+                        <p>Layout. <span class="capital">T</span>he background of the body takes up the background of "Grün" from Raoul Hausmann of 1918. <span class="capital">T</span>he h1 of each article is based on Shelley Jackson's "catifesto" dada with the cat to give a playful nuance typical of the Dadaist style. <span class="capital">T</span>he font-family is 'Rubik', sans-serif to give that robustness typical of dada prints. <span class="capital">G</span>iven the era, the images have a black and white filter, the whole (h2, p and images) sometimes rotate a few degrees to give the idea of disorder and freedom outside the box. <span class="capital">T</span>he font of the paragraphs is Sarabun sans-serif, italic and two font-families: 'Goblin One', cursive and Amita trying to resume a typewriter, all with an opacity of 0.6.</p>
+                        <p>The great diversity and non-linearity takes up, almost like an explosion, the Dadaist style of the early twentieth century.</p><br>
+                        <p><b>Images</b></p>
+                        <div>
+                            <img src="Home_and_doc\dadaism2.png" style = "position:relative;" width="370" height="300">
+                            <img src="Home_and_doc\dadaism3.png" style = "position:relative;" width="370" height="300">
+                            <img src="Home_and_doc\dadism1.png" style = "position:relative;" width="370" height="300">
+                            <img src="Home_and_doc\dadism4.png" style = "position:relative;" width="370" height="300">
+                            <img src="Home_and_doc\dadism5.png" style = "position:relative;" width="370" height="300">
+                        </div>
+                    </div>
+                    
+                    <div class="subsection">
+                        <h2>Airone Magazine Theme (1980s)</h2>
+                        <p><span class="first_two"><span class="decorated">A</span>irone was</span> founded in 1981 as an ecologist magazine primarily containing articles about the animal world, nature, ethnology and geography. <span class="capital">A</span>irone was described as a magazine similar to National Geographic, but perhaps more conservation-minded. <span class="capital">I</span>n an article about the first ten years of the magazine, the L'Unità journalist Antonio Del Giudice pointed how the magazine was "not just an editorial phenomenon, but also a cultural, political e social phenomenon".</p>
+                        <p>To build this theme we used some real Airone copies: we studied them and observed their layout to draw some information about the graphical style, the colours and the font. <span class="capital">O</span>n the basis of this preliminary study, we proceeded to write the CSS code in order to adapt the Airone layout features to our website.</p>
+                        <p>The text is justified and divided into two columns to allow a higher readability. <span class="capital">W</span>e set a column gap of 20px and a column width of 4 cm on the basis of the real measures we have observed. <span class="capital">M</span>oreover, the space between different paragraphs was deleted.</p>
+                        <p>The capital letters at the beginning of each sentence are bigger than the overall text size and are in bold. <span class="capital">F</span>urthermore, the first two words of each section are uppercase. <span class="capital">E</span>ach title and subtitle is uppercase and in bold. <span class="capital">W</span>e used no background images since the Airone deploys a clear and white page.</p>
+                        <p>Regarding those texts inside the class riquadro_extra, we found in Airone a different formatting for these parts, so we emulated it. <span class="capital">T</span>he text is italic. <span class="capital">T</span>here is a rule dividing the columns and a border surrounding the text. <span class="capital">A</span>lso, the title is uppercase and underscored.</p><br>
+                        <p><b>Images</b></p>
+                        <div>
+                            <img src="Home_and_doc\airone1.jpg" style = "position:relative;" width="270" height="350">
+                            <img src="Home_and_doc\aironi 3.jpg" style = "position:relative; " width="270" height="350">
+                            <img src="Home_and_doc\aironi 4.jpg" style = "position:relative; " width="270" height="350">
+                        </div>
+                        <p><b>Sources</b></p><br>
+                        <a href="https://it.wikipedia.org/wiki/Airone_(periodico)">https://it.wikipedia.org/wiki/Airone_(periodico)</a><br>
+                        The real copies we have studied
+                    </div>
+                    
+                    <div class="subsection">
+                        <h2>Pop-Rock bands in Rolling Stone Magazine Theme (2000s)</h2>
+                        <p><span class="first_two"><span class="decorated">A</span>s the</span> ‘90s faded away, putting the brakes on grunge, a new musical era emerged. <span class="capital">W</span>hile pop music ruled the charts, rock music continued to evolve and develop by merging with other genres. <span class="capital">T</span>he 2000s were defined by the emergence of various pop rock and post-grunge bands. <span class="capital">T</span>he new millennium has brought us many fascinating acts that blend a variety of genres together to form new sonic experiences.</p>
+                        <p>While the decade is gone, it leaves behind a legacy of sheer bliss and nostalgia. <span class="capital">T</span>he lines below showcase a diverse list of rock bands from the mesmerizing 2000s.</p>
+                        <p>The most important bands are Green day, Blink 182, My Chemical Romance, the White Stripes, Red Hot Chili Peppers, U2, Good Charlotte, Sum 41 and Thirty Seconds to Mars.</p>
+                        <p>In the 1990s, the Rolling Stone magazine changed its format to appeal to a younger readership interested in youth-oriented television shows, film actors, and popular music. <span class="capital">T</span>his led to criticism that the magazine was emphasizing style over substance.</p>
+                        <p>After years of declining readership, the magazine experienced a major resurgence of interest and relevance with the work of two young journalists in the late 2000s, Michael Hastings and Matt Taibbi. <span class="capital">R</span>ob Sheffield also joined from Spin.</p>
+                        <p>This style takes inspiration from the cover pages of Rolling stone magazine, from its articles and from the most famous covers of the pop-rock bands.</p>
+                        <p>Layout. <span class="capital">F</span>or the Cover issue the “Shrikhand” font was chosen for the title, while for the titles of the articles the font is “Batangas” which incorporates various magazine covers. <span class="capital">C</span>olor # 50ABCD takes up the blink-182 cover of Rolling Stone magazine.</p>
+                        <p>Article layout: background body divided into two columns, a creamy white background for some sections and a creamy yellow for the others. <span class="capital">F</span>or the h1 and h2 the font-family: 'Big Shoulders Stencil Display', cursive that takes up the typical style of the rock bands of the 2000s. <span class="capital">F</span>or the paragraphs a 'Gotham', sans-serif inspired by the official site of Linkin Park. <span class="capital">A</span> font-family has also been included: 'Bangers', cursive that takes the font from the Green Day album "Dookie". <span class="capital">T</span>he different h1s have the colors of different Rolling Stone covers.</p><br>
+                        <p><b>Images</b></p>
+                        <div>
+                            <img src="Home_and_doc\rolling1.jpeg" style = "position:relative;" width="270" height="350">
+                            <img src="Home_and_doc\rolling2.png" style = "position:relative;" width="270" height="350">
+                            <img src="Home_and_doc\rolling3.jpeg" style = "position:relative;" width="270" height="350">
+                            <img src="Home_and_doc\rolling4.jpeg" style = "position:relative;" width="270" height="350">
+                            <img src="Home_and_doc\rolling5.png" style = "position:relative;" width="270" height="350">
+                            <img src="Home_and_doc\rolling6.jpg" style = "position:relative;" width="270" height="350">
+                            <img src="Home_and_doc\rolling7.png" style = "position:relative;" width="270" height="350">
+                        </div>
+                    </div>
+                    <div class="subsection">
+                        <h2>Futuristic Theme (2030s)</h2>
+                        <p><span class="first_two"><span class="decorated">W</span>hile thinking</span> of how the graphic layout could be in 2030, we assumed that in the future there will not be a so crucial change in graphic style guidelines. <span class="capital">I</span>ndeed, nowadays thanks to user experience and design studies, we are already able to create very pleasant and user-friendly layouts. <span class="capital">T</span>he only possible revolution could happen only if some ground-breaking technology will replace the current devices used to browse the Web, i.e. the PC and the smartphone.</p>
+                        <p>Thus, given that, we decided to reflect on some other interesting current streams in graphic design: accessibility design. <span class="capital">I</span>ndeed, we think that accessibility design is going to be a central point in the future of graphic design, in the name of the Web accessible for everyone.</p>
+                        <p>Especially, we focused on two possible implementations for accessibility. <span class="capital">T</span>he first one is based on the idea to make the article’s content accessible easier and faster for those ones who do not have time to read the entire text. <span class="capital">T</span>he second one is devoted to making the text more readable for dyslexic people.</p>
+                        <p>Generally, the article layout and graphic style are very simple with a green aquamarine background colour which improves readability and relaxation while reading. <span class="capital">T</span>he minimalistic and round “Varela Round Font” responds to the same principles of relaxing reading.</p>
+                        <p>Regarding the first implementation, we inserted a button that highlights in the text the key-phrases and loads the distant reading tools provided by VoyantTools. <span class="capital">I</span>n a vision of a Web more and more interconnected, we think that the websites of the future will interact with each other. <span class="capital">S</span>o, we embedded the results of these distant reading tools in our articles because we think of them as useful tools to access the content of the article without actually reading.Voyant Tools is a web-based text reading and analysis environment.</p>
+                        <p>Regarding the second implementation, we inserted a button for the dyslexic-reading mode. <span class="capital">O</span>nce it is activated, the titles will be highlighted with different colours in order to increase readability and understanding of the hierarchic organization of the text. <span class="capital">F</span>urthermore, the space between letters and between lines is increased as well as the font size, and the font is replaced by Comic Sans which is suggested by experts to be the more suitable for dyslexic people, even though it is deprecated by web designers generally. <span class="capital">F</span>inally, a demonstrative button for the text-to-speech function is present as listening rather than reading for dyslexic people is of course much better.</p><br>
+            
+                        <p><b>Sources</b></p><br>
+                        <a href="https://voyant-tools.org/docs/">https://voyant-tools.org/docs/ </a><br>
+                        <a href="https://fonts.google.com/specimen/Varela+Round?query=round#standard-styles">https://fonts.google.com/specimen/Varela+Round?query=round#standard-styles</a><br>
+                        <a href="https://www.logodesign.net/learn-graphic-design-kids-dyslexia#:~:text=Many%20visual%20spatial%20learners%20are,a%20theory%20or%20a%20task.&text=So%20while%20learning%20through%20images,the%20child%20to%20retain%20it">https://www.logodesign.net/learn-graphic-design-kids-dyslexia</a><br>
+                        <a href="https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide">https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide</a><br>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+                
+ 
+    
+
+
+
+
+        <div id="bottom_page">
+            
+        </div>
+        
+
+
+        <div id="Navbar">
+            <div id="position">
+            <a href="#" onclick="location.href='index.html'">Home</a>
+            <div class="material-icons md-36">keyboard_arrow_right</div>
+            <a>Documentation</a>
+            <div class="material-icons md-36">keyboard_arrow_right</div>
+            <a id="year" name="2021">2021</a>
+            </div>
+            <div id="icons">
+                <div class="button-browser" id="text-4" >Browse the issues!</div>
+                <div class="material-icons md-36" id="browser" onclick="location.href='browser.html'" style="cursor: pointer;">menu_book</div>
+                <div class="button-timer" id="text-3">Change the historic time!</div>
+                <div class="dropdown">
+                    <div class="material-icons md-48" >timer</div>
+                    <div class="dropdown-content">
+                        <a id="anno-normal">2021</a>
+                        <a id="anno-1400">1400</a>
+                        <a id="anno-1800">1800</a>
+                        <a id="1915">1915</a>
+                        <a id="anno-1980">1980</a>
+                        <a id="anno-2000">2000</a>
+                        <a id="2030">2030</a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="home_functions.js"></script>
+</html>

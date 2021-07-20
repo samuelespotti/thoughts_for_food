@@ -1,0 +1,19 @@
+{
+
+    "visualization_1" : {
+        "dislessia": "style\\2030_style\\style_articles\\first_article\\dislessia.css",
+        "speed_readings": "style\\2030_style\\style_articles\\first_article\\speed_readings.css"
+    },
+
+    "visualization_2" : {
+        "dislessia": "style\\2030_style\\style_articles\\second_article\\dislessia.css",
+        "speed_readings": "style\\2030_style\\style_articles\\second_article\\speed_readings.css"
+    },
+
+    "visualization_3" : {
+        "dislessia": "style\\2030_style\\style_articles\\third_article\\dislessia.css",
+        "speed_readings": "style\\2030_style\\style_articles\\third_article\\speed_readings.css"
+    }
+
+
+}

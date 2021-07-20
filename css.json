@@ -1,0 +1,99 @@
+{
+
+    "anno-normal" : {
+        "file": "style\\normal_style.css",
+        "image": "",
+        "year": "<a id='year' name='anno-2021'>2021</a>"
+    },
+
+    "anno-1400" : {
+        "file": "style\\Gutemberg Style\\Gutemberg_Style.css",
+        "image": "https://www.parcotommasocampanella.it/wp-content/uploads/2016/02/sfondo-carta-antica.jpg",
+        "year": "<a id='year' name='anno-1400'>1400</a>"
+    },
+
+    "anno-1800" : {
+        "file": "style\\kelmscott_press\\kelmscott_press.css",
+        "image": "style\\kelmscott_press\\kelmscott_background.png",
+        "year": "<a id='year' name='anno-1800'>1800</a>"
+    },
+
+    "anno-1915" : {
+        "file": "style\\dadaism_style\\dada.css",
+        "image": "style\\dadaism_style\\paper.PNG",
+        "year": "<a id='year' name='anno-1915'>1915</a>",
+        "title": {
+            
+            "issue-3" : {
+
+            "normal-title": {
+    
+                "title-1": "<h1 about='cancel'>Will cell-based meat ever be a dinner staple?</h1>",
+                "title-2": "<h1 about='cancel'>Cultivated meat: Out of the lab, into the frying pan</h1>",
+                "title-3": "<h1 about='cancel'>Taking Cultured Meat to the Next Level</h1>"
+    
+            },
+    
+            "other-title": {
+    
+                "title-1": "<h1 about='cancel' id='title1'><span class='uno'>W</span>   <span class='due'>  I</span>  <span class='tre'> L</span><span class='quattro'>  L</span>  <span class='cinque'>  <br> C E</span>  <span class='sei'>  L L</span>  <span class='sette'></span>-<span class='otto'>BASED</span> <br> <span class='nove'>M</span> <span class='dieci'>E</span> <span class='undici'>AT</span> <span class='dodici'>EV</span> <span class='tredici'>E</span> <span class='quattordici'>R</span>  <span class='quindici'>BE</span> <br> <span class='sedici'>A</span>  <span class='diciassette'>DIN</span>  <span class='diciotto'>NE</span>  <span class='diciannove'>R</span>  <span class='venti'>S</span>  <span class='ventuno'>TA</span>  <span class='ventidue'>PL</span>  <span class='ventitre'>E?</span></h1>",
+                "title-2": "<h1 about='cancel' id='title2'><span class='uno'>C</span><span class='due'>U</span><span class='tre'>L</span><span class='quattro'>T</span><span class='cinque'>IV</span><span class='sei'>AT</span><span class='sette'></span><span class='otto'>E</span><span class='nove'>D</span> <span class='dieci'>-M</span><span class='undici'>EAT:</span> <span class='dodici'>OU</span><span class='tredici'>T</span> <span class='quattordici'>OF</span> <span class='quindici'>T</span><span class='sedici'>HE</span> <span class='text_occurrence_lab' id='staple_lab1'>LAB</span> <br> <span class='diciotto'>INTO</span> <span class='diciannove'>THE</span> <span class='venti'>FRY</span><span class='ventuno'>ING</span> <span class='ventidue'>PA</span><span class='ventitre'>N</span></h1>",
+                "title-3": "<h1 about='cancel' id='title3'><span class='uno'>T</span>   <span class='due'>  A</span>  <span class='tre'> K</span><span class='quattro'>  I</span>  <span class='cinque'>  N G</span> <br> <span class='sei'>  C U</span>  <span class='sette'></span> <span class='otto'>LT</span> <span class='nove'>U</span> <span class='dieci'>RE</span> <span class='undici'>D</span> <br> <span class='dodici'>M</span> <span class='tredici'>EA</span> <span class='quattordici'>T</span>  <span class='quindici'>TO</span> <span class='sedici'>T</span>  <span class='diciassette'>HE</span> <br> <span class='diciotto'>NE</span>  <span class='diciannove'>X</span>  <span class='venti'>T</span>  <span class='ventuno'>LE</span>  <span class='ventidue'>VE</span>  <span class='ventitre'>L</span></h1>"
+        }},
+    
+        "issue-2" : {
+    
+            "normal-title": {
+    
+                "title-1": "<h1 id='title2' about='cancel'><span class='text_occurrence_tudor'>Tudor</span> dining: a guide to food and status in the 16th century</h1>",
+                "title-2": "<h1 id='title3' about='cancel'>Food in the Roman World</h1>",
+                "title-3": "<h1 id='title1' about='cancel'>Food in an English Medieval Castle</h1>"
+                    
+    
+            },
+    
+            "other-title": {
+    
+                "title-1": "<h1 id='title2' about='cancel'><span class='text_occurrence_tudor'>Tudor</span><span class='uno'></span>   <span class='due'>  d</span>  <span class='tre'> i</span><span class='quattro'>  n</span>  <span class='cinque'>  in</span>  <span class='sei'>  g:</span>  <span class='sette'></span> <span class='otto'>a</span> <br> <span class='nove'>gu</span> <span class='dieci'>i</span> <span class='undici'>de</span> <span class='dodici'>to</span> <span class='tredici'>f</span> <span class='quattordici'>oo</span>  <span class='quindici'>d</span> <br>   <span class='diciassette'>and</span>  <span class='diciotto'>sta</span>  <span class='diciannove'>tus</span>  <span class='venti'>in</span>  <span class='ventuno'>the</span>  <span class='ventidue'>16th</span>  <span class='ventitre'>century</span></h1>",
+                "title-2": "<h1 id='title3' about='cancel'><span class='uno'>F</span>   <span class='due'>  O</span>  <span class='tre'> O</span><span class='quattro'>  D</span>  <span class='cinque'>  <br> IN</span>  <span class='sei'>  T</span>  <span class='sette'></span> <span class='nove'>H</span> <span class='dieci'>E</span><br> <span class='undici'>R</span> <span class='dodici'>O</span> <span class='tredici'>M</span>  <span class='quindici'>A</span> <span class='sedici'></span>  <span class='diciassette'>N</span>  <span class='diciotto'>W</span>  <span class='diciannove'>O</span>  <span class='venti'>R</span>  <span class='ventuno'>L</span>  <span class='ventidue'>D</span></h1>",
+                "title-3": "<h1 id='title1' about='cancel'><span class='uno'>F</span>   <span class='due'>  O</span>  <span class='tre'> O</span><span class='quattro'>  D</span>  <span class='cinque'>  <br> IN</span>  <span class='sei'>  A</span>  <span class='sette'></span><span class='nove'>N</span>   <span class='dieci'>E</span> <span class='undici'>N</span> <span class='dodici'>G</span> <span class='tredici'>L</span>  <span class='quindici'>I</span> <span class='sedici'></span>  <span class='diciassette'>S</span>  <span class='diciotto'>H</span> <br> <span class='diciannove'>MED</span>  <span class='venti'>IE</span>  <span class='ventuno'>VAL</span>  <span class='ventidue'>CAS</span><span class='ventitre'>TLE</span></h1>"
+    
+        }},
+    
+        "issue-1" : {
+    
+            "normal-title": {
+    
+                "title-1": "<h1 id='title3' about='cancel'>What Is a Low-Calorie Diet?</h1>",
+                "title-2": "<h1 id='title1' about='cancel'>Mediterranean Diet</h1>",
+                "title-3": "<h1 about='cancel'>Are there health benefits to going vegan?</h1>"
+    
+            },
+    
+            "other-title": {
+    
+                "title-1": "<h1 id='title3' about='cancel'><span class='uno'>W</span>   <span class='due'>  H</span>  <span class='tre'> A</span><span class='quattro'>  T</span>  <span class='cinque'>  <br> IS</span>  <span class='sei'>  A</span>  <span class='sette'></span> <span class='otto'>LO</span> <span class='nove'>W</span>-<span class='dieci'>C</span> <span class='undici'>A</span> <span class='dodici'>LO</span> <span class='tredici'>R</span> <span class='quattordici'>I</span>  <span class='quindici'>E</span> <br> <span class='sedici'>D</span>  <span class='diciassette'>I</span>  <span class='diciotto'>E</span>  <span class='diciannove'>T</span> </h1>",
+                "title-2": "<h1 id='title1' about='cancel'><span class='uno'>M</span>   <span class='due'>  E</span>  <span class='tre'> D</span><span class='quattro'>  I</span>  <span class='cinque'> TE</span>  <span class='sei'>  R</span>  <span class='sette'></span> <span class='nove'>A</span> <span class='dieci'>N</span> <span class='undici'>E</span><span class='tredici'>A</span>  <span class='quindici'>N</span> <span class='sedici'></span> <br> <span class='diciassette'>D</span>  <span class='diciotto'>I</span>  <span class='diciannove'>E</span>  <span class='venti'>T</span></h1>",
+                "title-3": "<h1 id='title2' about='cancel'><span class='uno'>A</span><span class='due'>  R</span><span class='tre'> E</span>  <span class='quattro'>  T</span>  <span class='cinque'>  HE</span>  <span class='sei'>  R E</span>  <span class='sette'></span> <br> <span class='otto'>HEA</span> <span class='nove'>LT</span> <span class='dieci'>H</span> <span class='undici'>BE</span> <span class='dodici'>NE</span> <span class='tredici'>F</span> <span class='quattordici'>I</span>  <span class='quindici'>TS</span> <br> <span class='sedici'>TO</span>  <span class='diciassette'>GO</span>  <span class='diciotto'>I</span>  <span class='diciannove'>NG</span>  <span class='venti'>V</span>  <span class='ventuno'>E</span>  <span class='ventidue'>GA</span>  <span class='ventitre'>N?</span></h1>"
+        }
+    
+    
+        }
+
+        }
+    },
+
+    "anno-1980" : {
+        "file": "style\\Airone_style\\airone_style.css",
+        "image": "",
+        "year": "<a id='year' name='anno-1980'>1980</a>"
+    },
+
+    "anno-2000" : {
+        "file": "style\\rollingstone_magazine\\rock.css",
+        "image": "",
+        "year": "<a id='year' name='anno-2000'>2000</a>"
+    }
+
+
+}

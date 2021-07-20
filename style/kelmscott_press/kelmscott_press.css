@@ -1,0 +1,101 @@
+/* added style */
+@import url(https://allfont.net/allfont.css?fonts=chaucer-regular);
+
+@font-face {
+    font-family: "Decorated_letters";
+    src: url("middleagesdeco_personal_use-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.decorated {
+    font-family: "Decorated_letters";
+    font-size: 2cm;
+}
+
+h1,h2{
+    text-transform: uppercase;
+}
+h3,h4{
+    color:red;
+}
+p{ 
+    margin: 0;
+    display:inline
+}
+
+p::first-letter {
+    font-family: "Decorated_letters";
+    font-size: 1cm;
+}
+p::after{
+    content: "\a";
+    white-space: pre;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+  
+
+table {
+  margin:15px;
+  -webkit-column-break-inside: avoid;
+  
+}
+
+th {
+  color:black;
+}
+
+
+/* the normal part of css */
+
+*{
+  font-family: 'Chaucer Regular', arial;
+}
+
+
+
+body{
+
+    margin: 0 !important;
+    padding: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    background-color: transparent;
+  
+  }
+  
+  
+  #image_background {
+    position: fixed;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    
+  }
+
+  
+  
+  
+  /* Articles section */
+  
+  .article {
+    z-index: 1;
+    transition: 0.8s;
+    text-align:left;
+    text-align: justify; 
+  
+  }
+  
+
+  #double-column {
+    column-count: 2;
+    column-gap: 1.5cm;
+
+  }

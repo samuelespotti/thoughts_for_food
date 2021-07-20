@@ -1,0 +1,32 @@
+/*dislessia*/
+#right-article {    
+    font-size: 19px;
+    letter-spacing: 6px;
+    line-height: 2cm;
+    font-family: "Comic Sans MS", "Comic Sans";
+    text-align: left;
+}
+
+#right-article h1 {
+    background-color: red;
+}
+#right-article h2 {
+    background-color: yellow;
+}
+#right-article h3 {
+    background-color: greenyellow;
+}
+#right-article h4 {
+    background-color: rgb(81, 36, 122);
+}
+
+#right-article  div.image {
+    content:url(https://icons-for-free.com/iconfiles/png/512/control+media+multimedia+music+options+play+play+button+player-1320185653542985681.png);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 70px;
+    height:70px;
+  }
+
