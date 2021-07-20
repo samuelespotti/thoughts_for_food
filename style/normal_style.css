@@ -224,7 +224,7 @@ img {
   background-color: transparent;
   cursor: pointer;
   height: 380px;
-  grid-area: right;
+  grid-area: center;
   width: 280px;
   align-self: center;
   justify-self: center;
@@ -234,7 +234,7 @@ img {
   background-color: transparent;
   cursor: pointer;
   height: 380px;
-  grid-area: center;
+  grid-area: right;
   width: 280px;
   align-self: center;
   justify-self: center;
