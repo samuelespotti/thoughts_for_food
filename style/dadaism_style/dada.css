@@ -17,7 +17,7 @@
 
 .big-box{
     background-image: url(paper.png);
-    background-repeat: repeat;
+    background-repeat: repeat-x;
 }
 
 img {
